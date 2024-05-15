@@ -10,8 +10,6 @@
 const contextStore = useContext();
 const processStore = useProcess();
 
-// SEO处理
-// BUG: 网站爬虫模拟显示，并未成功抓取该信息
 useHead({
   title: contextStore.value.appTitle,
   meta: [
