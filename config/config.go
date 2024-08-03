@@ -10,4 +10,5 @@ type Config struct {
 	Log      Log
 	Database Database
 	Program  Program
+	Email    Email
 }

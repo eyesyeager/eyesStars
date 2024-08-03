@@ -1,7 +1,7 @@
 nacos:
-  ip: 192.168.1.196
-  port: 15005
-  namespace_id: cc9e994b-b73d-4916-953b-a1ba933b00bb
+  ip: 192.168.1.11
+  port: 8848
+  namespace_id: e4196b87-2d63-4302-96d5-46e017318656
   data_id: context.json
   group: dev
   timeout: 10000  # ms

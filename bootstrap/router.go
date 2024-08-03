@@ -2,7 +2,6 @@ package bootstrap
 
 import (
 	"eyesStars/app/middleware"
-	_ "eyesStars/docs"
 	"eyesStars/global"
 	"eyesStars/routes"
 	"github.com/gin-gonic/gin"
@@ -38,6 +37,7 @@ func setupRouter() *gin.Engine {
 	routes.SetStarGroupRoutes(router.Group("/star"))
 	routes.SetTrackGroupRoutes(router.Group("/track"))
 	routes.SetUserGroupRoutes(router.Group("/user"))
+	routes.SetMessageGroupRoutes(router.Group("/message"))
 
 	return router
 }

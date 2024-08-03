@@ -6,7 +6,9 @@ package config
  */
 
 type App struct {
-	Name string
-	Url  string
-	Port int
+	Name   string
+	Site   string
+	Author string
+	Url    string
+	Port   int
 }
