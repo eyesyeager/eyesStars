@@ -38,6 +38,7 @@ func setupRouter() *gin.Engine {
 	routes.SetTrackGroupRoutes(router.Group("/track"))
 	routes.SetUserGroupRoutes(router.Group("/user"))
 	routes.SetMessageGroupRoutes(router.Group("/message"))
+	routes.SetMetricsGroupRoutes(router.Group("/metrics"))
 
 	return router
 }
