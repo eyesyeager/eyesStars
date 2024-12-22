@@ -24,6 +24,8 @@ func InitNacos() {
 
 	// 客户端配置
 	cc := constant.ClientConfig{
+		Username:            global.Native.Nacos.Username,
+		Password:            global.Native.Nacos.Password,
 		NamespaceId:         global.Native.Nacos.NamespaceId,
 		TimeoutMs:           global.Native.Nacos.Timeout,
 		NotLoadCacheAtStart: global.Native.Nacos.NotLoadCacheAtStart,
